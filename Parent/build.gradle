@@ -3,8 +3,8 @@ apply plugin: 'application'
 
 mainClassName = 'ParentLauncher'
 dependencies {
-	compile project(':..:ChildA')
-	compile project(':..:ChildB')
+	compile project(':ChildA')
+	compile project(':ChildB')
 }
 /*
 task recopySubs {

@@ -1,2 +1,1 @@
-include ':..:ChildA',':..:ChildB'
-
+includeFlat 'ChildA','ChildB'
